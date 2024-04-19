@@ -1,0 +1,951 @@
+/*
+
+Theme Name: Tomi Portfolio
+Author: Tomi Rabi
+Description: I am struggling help me please I haven't slept in days and I'm running low on caffeine
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #C1B2A1;
+    
+  }
+.container {
+    position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+  /*----------------------NAVIGATION-----------------------*/
+
+ .navbar {
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    width: 100%;
+    height: 60px;
+    background-color: #3C2824;
+    color: #C1B2A1;
+    position: fixed;
+    top: -1px;
+    z-index: 100000;
+ }
+
+
+ .icon img {
+  width: 40px;
+  margin-left: 20px; 
+  padding: 0; 
+
+ }
+
+.lista{
+  padding-right: 450px;
+
+}
+
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+ 
+  padding: 0; 
+  justify-content: space-evenly;
+ align-items:center ;
+}
+
+ .Nb {
+    padding-left: 80px;
+ }
+
+  /*----------------------END NAVIGATION-----------------------*/
+
+  /*---------------------------ABOUT PAGE-------------------------------*/
+
+  .aboutpage{
+    display: flex;
+  }
+
+ .sidebox {
+    width: 742px;
+    height: 680px;
+    background-color: #3C2824;
+    color: #d3c8bb;
+ }
+
+
+ .sayinghi {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+
+    margin-right: 300px;
+    margin-left: 40px;
+    margin-top: 60px;
+    
+    border-bottom: 5px dotted #C1B2A1;
+ }
+
+ .something {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+   
+
+   
+    margin-left: 70px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+ }
+
+ .aboutme  {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+
+    margin-left: 70px;
+    padding-right: 250px;
+    margin-top: 20px;
+ }
+
+ a {
+  color: #C1B2A1; 
+}
+
+.Nb a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DC9972;
+}
+
+ .cv-download {
+  padding-left: 70px;
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+ }
+
+ .video-download {
+  padding-left: 70px;
+  padding-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+ }
+
+ .rightsidebox {
+    /* background-color: #DC9972; */
+    width:max-content;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.ball1 {
+  position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 100px;
+    background-color: #DC9972;
+
+    animation-name: ball1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+   
+}
+
+@keyframes ball1 {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 55px); }
+  100%   { transform: translate(0, -0px); }    
+}
+
+
+.ball2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-left: 600px;
+  border-radius: 50%;
+  background-color: #DC9972;
+
+  
+  animation-name: ball2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+}
+
+@keyframes ball2 {
+  0% { transform: translate(0,  0px); }
+  30%  { transform: translate(0, 75px) translateX(30px); }
+  50%  { transform: translate(0, 100px) translateX(20px); }
+  78%  { transform: translate(0, 60px) translateX(10px); }
+  100%   { transform: translate(0, -0px); }    
+}
+
+
+.ball3 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  margin-top: 440px;
+  margin-left: 90px;
+  border-radius: 50%;
+  background-color: #DC9972;
+
+  animation-name: ball3;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.5s;
+}
+
+
+@keyframes ball3 {
+  0% { transform: translate(0, 0) translateX(0); } 
+  20% { transform: translate(0, 15px) translateX(10px); } 
+  40% { transform: translate(0, -15px) translateX(10px); } 
+  60% { transform: translate(0, 15px) translateX(20px); } 
+  80% { transform: translate(0, -15px) translateX(10px); } 
+  100% { transform: translate(0, 0) translateX(0); } 
+}
+
+
+@keyframes animateBubble {
+  0% {
+      margin-top: 500px;
+  }
+  100% {
+      margin-top: -20%;
+  }
+}
+
+@keyframes sideWays { 
+  0% { 
+      margin-left:400px;
+  }
+  100% { 
+      margin-left:300px;
+  }
+}
+
+ 
+.rightsidebox img {
+    padding-left: 200px;
+    width: 650px;
+}
+
+
+  /*-----------------------------END ABOUT PAGE-------------------------*/
+
+
+
+
+
+/*---------------DESIGN PROJECTS----------------------------------*/
+
+
+
+.dottedline {
+       position: absolute;
+        border: none;
+        border-right: 3px dashed #3C2824;
+        height: 1300px;
+        width: 0px;
+        margin-left: 740px;
+     
+}
+
+
+
+.designwork {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+    font-size: 60px; 
+    width: 400px;
+    border-bottom: 5px dotted #3C2824 ;
+    padding-top: 30px;
+    padding-left: 40px;
+    /* background-color: #DC9972; */
+    max-height: 110px;
+
+}
+
+
+.fourcards {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+
+.card {
+    display: flex;
+    width: 600px;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.outcard:first-child .card {
+   /* background-color: red;*/
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.outcard:nth-child(2) .card {
+    
+    margin-top: 0px;
+   
+}
+
+.outcard:nth-child(3) .card {
+   
+    margin-left: 30px;
+   
+}
+
+.outpic {
+    margin-top: 100px;
+}
+
+
+
+
+.picture img {
+
+  height: 370px;
+  position: relative;
+  margin: auto;
+  border-radius: 30px;
+  padding-top: 0px;
+  margin-right: 10px;
+  border: 4px solid #DC9972;
+  animation: border-color-change 2s linear infinite alternate; 
+  animation-play-state: running;
+  z-index: -1;
+  transition: all .2s ease-in-out; 
+}
+
+.picture:hover {
+  animation-play-state: paused;
+  cursor:pointer;
+  transform: scale(1.02);
+}
+
+.fullsize:hover {
+  animation-play-state: paused;
+  cursor:pointer;
+  transform: scale(1.02);
+}
+
+
+@keyframes border-color-change {
+  0% {
+    border-color: #DC9972;
+  }
+  100% {
+    border-color: #3C2824; 
+  }
+}
+
+
+.circle {
+    position: absolute;
+    z-index: -60;
+    width: 160px;
+    height: 160px;
+    background-color: #DC9972;
+    border-radius: 50%;
+    transform: translateX( 105%);
+
+}
+
+.text {
+
+    padding-left: 15px;
+    padding-top: 40px;
+    display: block;
+    width: 430px;
+   
+   
+}
+
+.title  {
+padding-bottom: 80px;
+font-weight: 100;
+transform: translateX( -10%);
+
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.description {
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style:normal;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*----------------------------------------------LAST PART---------------------------------------------------------*/
+
+.lastthings{
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+}
+
+.otherart {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+    font-size: 60px; 
+    width: 470px;
+    border-bottom: 5px dotted #3C2824 ;
+    padding-top: 30px;
+    padding-left: 40px;
+    /* background-color: #DC9972; */
+    max-height: 110px;
+
+}
+
+
+.lasttwocards {
+    display: block;
+    margin-top: 100px;
+    position: absolute;
+    width: 900px;
+   
+  
+}
+
+.card2 {
+  display: flex;
+  width: 1000px;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 80px;
+  /* background-color: #DC9972; */
+}
+
+.outpic2 {
+  margin-top: 100px;
+}
+
+.picture2 img {
+  
+  height: 370px;
+  width: 550px;
+  background-color: #3C2824;
+  margin: auto;
+  border-radius: 30px;
+  border: 2px solid #DC9972;
+  border: 4px solid #DC9972;
+  animation: border-color-change 2s linear infinite alternate; 
+  animation-play-state: running;
+  z-index: -1;
+}
+
+.picture2:hover {
+  animation-play-state: paused;
+}
+
+
+.fullsize{
+  display: block;
+}
+
+.mobile{
+  display: none;
+}
+
+
+@keyframes border-color-change {
+  0% {
+    border-color: #DC9972;
+  }
+  100% {
+    border-color: #3C2824; /* Change to the desired color */
+  }
+}
+
+.circle2 {
+  position: absolute;
+  z-index: -60;
+  width: 180px;
+  height: 180px;
+  background-color: #DC9972;
+  border-radius: 50%;
+  transform: translateX( 260%);
+  
+
+}
+
+.text2 {
+
+  padding-left: 30px;
+  padding-top: 40px;
+  display: block;
+  width: auto;
+ 
+ 
+}
+
+.title2  {
+  padding-bottom: 80px;
+  font-weight: 100;
+  transform: translateX( -10%);
+  
+      font-family: "Shadows Into Light", cursive;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 40px;
+
+
+}
+
+.description2 {
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style:normal;
+}
+
+
+.goth{
+        position: relative;
+        justify-self: end;
+        width: 300px;
+        height: auto;
+        margin-left: auto;   
+        padding-top: 60px;
+        /* background-color: #DC9972;*/  
+ }
+
+
+
+/*----------------------------------------------LAST PART---------------------------------------------------------*/
+
+/*------------------------------------------------FOOTER-----------------------------------------------------------------*/
+
+
+footer{
+    width: 100vw;
+    height: 350px;
+    background-color: #3C2824;
+    align-items: center;
+   justify-content: center;
+   display: flex;
+    
+   
+}
+
+.footicon{
+  display: flex;
+}
+
+
+.footicon img {
+  width: 200px;
+ 
+}
+
+.foottext {
+  display: block;
+  color: #C1B2A1;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.reachme{
+  font-family: "Roboto", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 40px;
+  padding-bottom: 25px;
+}
+
+.email{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.phone{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------- FOR PHONES---------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 600px) {
+
+  .navbar {
+    height: 100px; 
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+  
+
+  }
+
+  .lista {
+    padding-left: 70px; 
+    margin-top: 0px;
+    margin-bottom: 40px; 
+  }
+
+  .Nb {
+    padding-left: 20px ;
+    font-size: 17px;
+   
+  }
+
+  .Nb a {
+    padding-left: 20px ;
+    font-size: 17px;
+    width: 200px;
+  }
+
+/*   .icon{
+    margin-top: 10px;
+  } */
+
+  .sidebox {
+    width: 100%;
+    height: 650px;
+    background-color: #3C2824;
+    color: #d3c8bb;
+ }
+
+ .rightsidebox {
+  display: none;
+
+}
+  .sayinghi {
+      font-size: 40px;
+     
+      margin-right: 600px; 
+  }
+  .something {
+    margin-top: 30px;
+      font-size: 24px; 
+      margin-left: 40px; 
+  }
+  .aboutme {
+      font-size: 20px; 
+      margin-left: 40px; 
+      padding-right: 50px; 
+  }
+
+  .cv-download {
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+   }
+  
+   .video-download {
+    padding-left: 40px;
+    padding-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;}
+
+    .designwork {
+      font-family: "Shadows Into Light", cursive;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 70px;
+        font-size: 45px; 
+        width: 320px;
+        border-bottom: 4px dotted #3C2824 ;
+        padding-top: 20px;
+        padding-left: 40px;
+        max-height: 83px;    
+    }
+
+    .dottedline {
+      display: none;
+    }
+
+    .fourcards {
+        display:block; 
+        padding-top: 10px;
+    }
+    
+    .outcard {
+        padding-top: 30px;
+       
+    }
+
+    .card {
+        width: 350px;
+        height: auto;
+        margin:auto ; 
+        display: flex;
+        margin-left: 5px;
+        padding-top: 30px;
+        margin-bottom: 30px     ;
+        border-bottom: 3px dashed #3C2824;
+        padding-bottom: 30px;
+    }
+    .outcard:first-child .card {
+   
+       margin-left: 5px;
+    
+   }
+   
+   
+   .outcard:nth-child(3) .card {
+      
+       margin-left: 5px;
+      
+   }
+    .picture img {
+        
+    height: 250px;
+    width: 180px;
+   
+    margin: auto;
+    border-radius: 30px;
+    border-color: #DC9972;
+    border-width: 4px;
+  
+}
+
+
+
+.text {
+
+  padding-left: 15px;
+  padding-top: 30px;
+  display: block;
+  width: 200px;
+ 
+ 
+}
+
+.title  {
+padding-bottom: 15px;
+font-weight: 100;
+transform: translateX( -5%);
+padding-top: 50px;
+
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 23px;
+  width: 120px;
+
+}
+
+.description {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  width: 110px;
+}
+
+    
+    .circle {
+      
+        position: absolute;
+        z-index: -60;
+        width: 100px;
+        height: 100px;
+        background-color: #DC9972;
+        border-radius: 50%;
+        transform: translateX( 130%);
+        margin-top: +50px; 
+    }
+
+  
+  .otherart {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+      font-size: 35px; 
+      width: 290px;
+      border-bottom: 5px dotted #3C2824 ;
+      padding-top: 30px;
+      padding-left: 40px;
+      max-height: 83px;
+  
+  }
+  
+  .card2 {
+    width: 350px;
+    height: auto;
+    margin:auto ; 
+    display: flex;
+    margin-left: 5px;
+    padding-top: 30px;
+    margin-bottom: 30px     ;
+    border-bottom: 3px dashed #3C2824;
+    padding-bottom: 30px;
+  }
+
+
+    .fullsize{
+      display: none;
+    }
+  
+    .mobile{
+      display: block;
+    }
+  
+  
+  .outpic2 {
+    margin-top: 90px;
+  }
+  
+  .picture2 img {
+    
+    height: 250px;
+    width: 180px;
+   
+    margin: auto;
+    border-radius: 30px;
+    border-color: #DC9972;
+    border-width: 4px;
+   
+  }
+  
+
+  .circle2 {
+    position: absolute;
+    z-index: -60;
+    background-color: #DC9972;
+    border-radius: 50%;
+    transform: translateX( 130%);
+    width: 100px;
+    height: 100px;
+    margin-top: +50px; 
+  }
+  
+  .text2 {
+  
+    padding-left: 15px;
+    padding-top: 30px;
+    display: block;
+    width: 200px;
+
+  }
+  
+  .title2  {
+    padding-bottom: 15px;
+    font-weight: 100;
+    transform: translateX( -5%);
+    padding-top: 35px;
+    
+      font-family: "Shadows Into Light", cursive;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 23px;
+      width: 120px;
+    
+
+  }
+  
+  .description2 {
+    font-size: 9px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 110px;
+  }
+  
+   .goth {
+    display: none;
+  }
+
+  footer{
+ margin-top: 890px;
+ height: 180px;
+
+}
+.footicon img {
+  width: 100px;
+  height: 96px;
+ 
+}
+
+.foottext {
+  display: block;
+  color: #C1B2A1;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.reachme{
+  font-family: "Roboto", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+.email{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+
+.phone{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+}
+
+
+}
